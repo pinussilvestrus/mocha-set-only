@@ -1,0 +1,25 @@
+{
+  "name": "mocha-set-only",
+  "version": "1.0.0",
+  "description": "Sets the `only` tag to a mocha-test for a given file",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint ."
+  },
+  "author": "Niklas Kiefer",
+  "license": "MIT",
+  "dependencies": {
+    "mri": "^1.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pinussilvestrus/mocha-set-only.git"
+  },
+  "bin": {
+    "mocha-set-only": "index.js"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-plugin-bpmn-io": "^0.7.0"
+  }
+}
